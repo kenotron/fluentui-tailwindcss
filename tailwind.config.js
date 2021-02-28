@@ -3,7 +3,35 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      // FluentUI color definitions are a mess and you know it.
+      // https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
       colors: {
+        black: '#000000',
+        gray: {
+          10: '#faf9f8',
+          20: '#f3f2f1',
+          30: '#edebe9',
+          40: '#e1dfdd',
+          50:  '#d2d0ce',
+          60: '#c8c6c4',
+          70: '#bebbb8',
+          80: '#b3b0ad',
+          90: '#a19f9d',
+          100: '#979593',
+          110: '#8a8886',
+          120: '#797775',
+          130: '#605e5c',
+          140: '#484644',
+          150: '#3b3a39',
+          160: '#323130',
+          170: '#292827',
+          180: '#252423',
+          190: '#201f1e',
+          200: '#1b1a19',
+          210: '#161514',
+          220: '#11100f',
+        },
+        white: '#ffffff',
         product: {
           access: '#a4373a',
           exchange: '#0078d4',
