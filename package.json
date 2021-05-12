@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "esbuild": "^0.8.53",
-    "postcss": "^8.2.6",
+    "postcss": "^8.2.10",
     "postcss-import": "^14.0.0",
     "tailwindcss-cli": "^0.1.2",
     "postcss-cli": "^8.3.1",
